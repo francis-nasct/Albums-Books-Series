@@ -1,0 +1,26 @@
+:root {
+  --cinza-titulo: #808080;
+  --branco-texto: #ffffff;
+  --preto-texto: #000000;
+  --fonte-principal: "BBH Bogle", sans-serif;
+  --hover-color: rgb(19, 94, 135);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--branco-texto);
+  font-family: var(--fonte-principal);
+  font-weight: 100;
+  font-size: 20px;
+}
+
+.title {
+  color: var(--cinza-titulo);
+  font-size: 30px;
+  font-weight: 100;
+}

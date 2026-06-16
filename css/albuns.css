@@ -1,0 +1,55 @@
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  align-items: center;
+  text-align: center;
+}
+
+.album {
+  background-color: var(--branco-texto);
+  color: var(--preto-texto);
+}
+
+.secundario {
+  background-color: var(--preto-texto);
+  color: var(--branco-texto);
+}
+
+.album__descricao {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titulo {
+  font-size: 30px;
+  padding: 0.5em;
+  color: var(--cinza-titulo);
+  font-weight: 100;
+}
+
+.album__musicas {
+  list-style-type: none;
+}
+
+.musicas__link {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  color: var(--preto-texto);
+}
+
+.musicas__link:hover {
+  color: var(--hover-color);
+}
+
+.links {
+  color: var(--branco-texto);
+}
+
+.album__imagem {
+  width: 70%;
+  margin: 1em 5em 1em 5em;
+  align-items: center;
+}
