@@ -23,43 +23,111 @@
   color: var(--hover-color);
 }
 
-.album-section {
-  background-color: var(--preto-texto);
-}
-
-.album-section .images-gallery {
-  padding: 50px;
+.albuns .images-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px;
-  height: 450px;
+  height: 375px;
+  width: 375px;
 }
 
-.album-section .images-gallery .first-gallery-item {
+.albuns .images-gallery .first-gallery-item {
   background: url(../img/Renaissance.png) no-repeat;
   background-size: cover;
 }
 
-.album-section .images-gallery .second-gallery-item {
+.albuns .images-gallery .second-gallery-item {
   background: url(../img/Atavista.png) no-repeat;
   background-size: cover;
 }
 
-.album-section .images-gallery .third-gallery-item {
+.albuns .images-gallery .third-gallery-item {
   background: url(../img/My\ 21st\ Century\ Blues.png) no-repeat;
   background-size: cover;
 }
 
-.album-section .images-gallery .fourth-gallery-item {
+.albuns .images-gallery .fourth-gallery-item {
   background: url(../img/Gasoline.png) no-repeat;
   background-size: cover;
 }
 
-.album-section .section-content {
+.albuns .section-content {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  padding: 25px;
-  height: 550px;
+  height: 225px;
+}
+
+/*SERIES*/
+
+.series h2 {
+  margin: 25px 0 25px 55px;
+}
+
+.series .series-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+  height: 400px;
+}
+
+.series .series-gallery .gallery-item.one {
+  background: url(../img/Interview-with-the-vampire.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.two {
+  background: url(../img/Succession.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.three {
+  background: url(../img/Foundation.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.four {
+  background: url(../img/Severance.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.five {
+  background: url(../img/Abbot-elementary.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.six {
+  background: url(../img/Fleabag.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.seven {
+  background: url(../img/Barry.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.eight {
+  background: url(../img/Good-omens.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.nine {
+  background: url(../img/Insecure.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.ten {
+  background: url(../img/Never-have-i-ever.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.eleven {
+  background: url(../img/I-may-destroy-you.jpg) no-repeat;
+  background-size: cover;
+}
+
+.series .series-gallery .gallery-item.twelve {
+  background: url(../img/Rick&Morty.jpg) no-repeat;
+  background-size: cover;
 }
