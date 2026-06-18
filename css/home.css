@@ -31,24 +31,44 @@
   width: 375px;
 }
 
-.albuns .images-gallery .first-gallery-item {
+.albuns .images-gallery .gallery-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.albuns .images-gallery .content {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.albuns .images-gallery .content:hover {
+  opacity: 1;
+}
+
+.albuns .images-gallery .gallery-item.first {
   background: url(../img/Renaissance.png) no-repeat;
   background-size: cover;
+  border-radius: 10px;
 }
 
-.albuns .images-gallery .second-gallery-item {
+.albuns .images-gallery .gallery-item.second {
   background: url(../img/Atavista.png) no-repeat;
   background-size: cover;
+  border-radius: 10px;
 }
 
-.albuns .images-gallery .third-gallery-item {
+.albuns .images-gallery .gallery-item.third {
   background: url(../img/My\ 21st\ Century\ Blues.png) no-repeat;
   background-size: cover;
+  border-radius: 10px;
 }
 
-.albuns .images-gallery .fourth-gallery-item {
+.albuns .images-gallery .gallery-item.fourth {
   background: url(../img/Gasoline.png) no-repeat;
   background-size: cover;
+  border-radius: 10px;
 }
 
 .albuns .section-content {
