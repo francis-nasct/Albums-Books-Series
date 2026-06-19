@@ -110,6 +110,10 @@
   font-size: 30px;
 }
 
+.books .books-gallery {
+  display: none;
+}
+
 /*SERIES*/
 
 .series h2 {
@@ -188,11 +192,73 @@
     column-gap: 100px;
     padding: 15px;
   }
+
+  .books .books-content {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
   .albuns .images-gallery {
     column-gap: 200px;
     padding: 20px;
+  }
+
+  .books {
+    justify-content: center;
+  }
+
+  .books .books-content {
+    flex-direction: row;
+    flex-wrap: initial;
+    padding: 25px 0;
+  }
+
+  .books .books-gallery {
+    display: flex;
+    column-gap: 85px;
+  }
+
+  .books .books-gallery .gallery-item.one {
+    background: url(../img/o-processo-franz-kafka.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+    width: 150px;
+  }
+
+  .books .books-gallery .gallery-item.two {
+    background: url(../img/mr-loverman-bernardine-evaristo.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+    width: 150px;
+  }
+
+  .books .books-gallery .gallery-item.three {
+    background: url(../img/leite-derramado-chico-buarque.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+    width: 150px;
+  }
+
+  .books .books-gallery .gallery-item.four {
+    background: url(../img/a-amiga-genial-elena-ferrante.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+    width: 150px;
+  }
+
+  .books .books-gallery .gallery-item.five {
+    background: url(../img/dracula-bram-stoker.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 210px;
+    width: 150px;
   }
 }
