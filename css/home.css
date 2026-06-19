@@ -29,7 +29,8 @@
   grid-template-rows: 1.5fr 0.5fr 1.5fr 0.5fr;
   gap: 10px;
   height: 550px;
-  width: 375px;
+  width: auto;
+  padding: 10px;
 }
 
 .albuns .images-gallery .content {
@@ -180,4 +181,18 @@
 .series .series-gallery .gallery-item.twelve {
   background: url(../img/Rick&Morty.jpg) no-repeat;
   background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .albuns .images-gallery {
+    column-gap: 100px;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .albuns .images-gallery {
+    column-gap: 200px;
+    padding: 20px;
+  }
 }
