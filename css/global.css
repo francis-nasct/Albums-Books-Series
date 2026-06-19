@@ -23,6 +23,10 @@ main {
   padding: 25px;
 }
 
+section {
+  height: 100vh;
+}
+
 .title {
   color: var(--primary-color);
   font-size: 30px;

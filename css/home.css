@@ -71,6 +71,29 @@
   border-radius: 10px;
 }
 
+/*BOOKS*/
+
+.books,
+.albuns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.books .books-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.books .books-content h3 {
+  border: 3px dotted var(--primary-color);
+  border-radius: 15px;
+  padding: 10px 25px;
+  margin-bottom: 15px;
+}
+
 /*SERIES*/
 
 .series h2 {
