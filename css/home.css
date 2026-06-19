@@ -1,5 +1,5 @@
 .main-header {
-  background-color: var(--cinza-titulo);
+  background-color: var(--primary-color);
 }
 
 .list-links {
@@ -15,7 +15,7 @@
 
 .list-links li a {
   text-decoration: none;
-  color: var(--branco-texto);
+  color: var(--terciary-color);
   font-size: 20px;
 }
 

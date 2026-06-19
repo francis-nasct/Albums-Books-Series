@@ -1,9 +1,9 @@
 :root {
-  --cinza-titulo: #808080;
-  --branco-texto: #ffffff;
-  --preto-texto: #000000;
+  --primary-color: #896f3d;
+  --secondary-color: #102134;
+  --terciary-color: #ffffff;
   --fonte-principal: "BBH Bogle", sans-serif;
-  --hover-color: rgb(19, 94, 135);
+  --hover-color: #770101;
 }
 
 * {
@@ -13,18 +13,18 @@
 }
 
 body {
-  color: var(--branco-texto);
+  color: var(--terciary-color);
   font-family: var(--fonte-principal);
   font-weight: 100;
   font-size: 20px;
 }
 main {
-  background-color: var(--preto-texto);
+  background-color: var(--secondary-color);
   padding: 25px;
 }
 
 .title {
-  color: var(--cinza-titulo);
+  color: var(--primary-color);
   font-size: 30px;
   font-weight: 100;
 }

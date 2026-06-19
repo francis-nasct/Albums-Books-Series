@@ -7,13 +7,13 @@
 }
 
 .album {
-  background-color: var(--branco-texto);
-  color: var(--preto-texto);
+  background-color: var(--terciary-color);
+  color: var(--secondary-color);
 }
 
 .secundario {
-  background-color: var(--preto-texto);
-  color: var(--branco-texto);
+  background-color: var(--secondary-color);
+  color: var(--terciary-color);
 }
 
 .album__descricao {
@@ -25,7 +25,7 @@
 .titulo {
   font-size: 30px;
   padding: 0.5em;
-  color: var(--cinza-titulo);
+  color: var(--primary-color);
   font-weight: 100;
 }
 
@@ -37,7 +37,7 @@
   text-decoration: none;
   display: flex;
   justify-content: center;
-  color: var(--preto-texto);
+  color: var(--secondary-color);
 }
 
 .musicas__link:hover {
@@ -45,7 +45,7 @@
 }
 
 .links {
-  color: var(--branco-texto);
+  color: var(--terciary-color);
 }
 
 .album__imagem {
