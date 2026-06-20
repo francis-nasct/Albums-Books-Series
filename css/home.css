@@ -23,6 +23,8 @@
   color: var(--hover-color);
 }
 
+/*ALBUNS*/
+
 .albuns .images-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -86,8 +88,6 @@
 
 .books,
 .albuns {
-  display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
 }
@@ -246,44 +246,39 @@
     column-gap: 85px;
   }
 
+  .books .books-gallery .gallery-item {
+    height: 210px;
+    width: 150px;
+  }
+
   .books .books-gallery .gallery-item.one {
     background: url(../img/o-processo-franz-kafka.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 210px;
-    width: 150px;
   }
 
   .books .books-gallery .gallery-item.two {
     background: url(../img/mr-loverman-bernardine-evaristo.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 210px;
-    width: 150px;
   }
 
   .books .books-gallery .gallery-item.three {
     background: url(../img/leite-derramado-chico-buarque.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 210px;
-    width: 150px;
   }
 
   .books .books-gallery .gallery-item.four {
     background: url(../img/a-amiga-genial-elena-ferrante.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 210px;
-    width: 150px;
   }
 
   .books .books-gallery .gallery-item.five {
     background: url(../img/dracula-bram-stoker.jpg) no-repeat;
     background-size: cover;
     background-position: center;
-    height: 210px;
-    width: 150px;
   }
 
   .series-content {
