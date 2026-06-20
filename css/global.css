@@ -2,7 +2,7 @@
   --primary-color: #896f3d;
   --secondary-color: #102134;
   --terciary-color: #ffffff;
-  --fonte-principal: "BBH Bogle", sans-serif;
+  --fonte-principal: "Lora", serif;
   --hover-color: #770101;
 }
 
@@ -15,7 +15,7 @@
 body {
   color: var(--terciary-color);
   font-family: var(--fonte-principal);
-  font-weight: 100;
+  font-weight: 400;
   font-size: 20px;
 }
 main {
@@ -33,5 +33,5 @@ section {
 .title {
   color: var(--primary-color);
   font-size: 30px;
-  font-weight: 100;
+  font-weight: 700;
 }
