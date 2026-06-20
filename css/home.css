@@ -214,6 +214,15 @@
     justify-content: center;
     gap: 15px;
   }
+
+  .series-content {
+    margin-bottom: 15px;
+  }
+
+  .series .series-gallery {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+  }
 }
 
 @media screen and (min-width: 1024px) {
@@ -282,7 +291,6 @@
   }
 
   .series .series-gallery {
-    grid-template-columns: repeat(6, 1fr);
     height: 500px;
     gap: 30px;
   }
