@@ -116,8 +116,11 @@
 
 /*SERIES*/
 
-.series h2 {
-  margin: 25px 0 25px 55px;
+.series-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
 }
 
 .series .series-gallery {
@@ -130,61 +133,73 @@
 .series .series-gallery .gallery-item.one {
   background: url(../img/Interview-with-the-vampire.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.two {
   background: url(../img/Succession.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.three {
   background: url(../img/Foundation.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.four {
   background: url(../img/Severance.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.five {
   background: url(../img/Abbot-elementary.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.six {
   background: url(../img/Fleabag.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.seven {
   background: url(../img/Barry.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.eight {
   background: url(../img/Good-omens.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.nine {
   background: url(../img/Insecure.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.ten {
   background: url(../img/Never-have-i-ever.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.eleven {
   background: url(../img/I-may-destroy-you.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .series .series-gallery .gallery-item.twelve {
   background: url(../img/Rick&Morty.jpg) no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 @media screen and (min-width: 768px) {
@@ -260,5 +275,15 @@
     background-position: center;
     height: 210px;
     width: 150px;
+  }
+
+  .series-content {
+    margin-bottom: 20px;
+  }
+
+  .series .series-gallery {
+    grid-template-columns: repeat(6, 1fr);
+    height: 500px;
+    gap: 30px;
   }
 }
