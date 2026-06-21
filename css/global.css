@@ -16,7 +16,7 @@ body {
   color: var(--terciary-color);
   font-family: var(--fonte-principal);
   font-weight: 400;
-  font-size: 20px;
+  font-size: 15px;
 }
 main {
   background-color: var(--secondary-color);
