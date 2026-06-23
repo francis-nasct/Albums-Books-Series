@@ -1,31 +1,30 @@
 .main-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 150px;
   background-color: var(--primary-color);
 }
 
-.list-links {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.main-header h1 {
+  color: var(--terciary-color);
+  font-size: 20px;
+  padding: 0 80px;
 }
 
-.list-links li {
-  margin: 50px;
-  list-style: none;
-}
-
-.list-links li a {
+.main-header a {
   text-decoration: none;
   color: var(--terciary-color);
   font-size: 20px;
 }
 
-.list-links li a:hover {
+.main-header a:hover {
   color: var(--hover-color);
 }
 
 /*ALBUNS*/
 
-.albuns .images-gallery {
+#albuns .images-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1.5fr 0.5fr 1.5fr 0.5fr;
@@ -35,49 +34,49 @@
   padding: 10px;
 }
 
-.albuns .images-gallery .content {
+#albuns .images-gallery .content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.albuns .images-gallery .content h3 {
+#albuns .images-gallery .content h3 {
   font-size: 21px;
 }
 
-.albuns .images-gallery .content p {
+#albuns .images-gallery .content p {
   font-size: 20px;
 }
 
-.albuns .images-gallery .gallery-item {
+#albuns .images-gallery .gallery-item {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.albuns .images-gallery .gallery-item.first {
+#albuns .images-gallery .gallery-item.first {
   background: url(../img/Renaissance.png) no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
 }
 
-.albuns .images-gallery .gallery-item.second {
+#albuns .images-gallery .gallery-item.second {
   background: url(../img/Atavista.png) no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
 }
 
-.albuns .images-gallery .gallery-item.third {
+#albuns .images-gallery .gallery-item.third {
   background: url(../img/My\ 21st\ Century\ Blues.png) no-repeat;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
 }
 
-.albuns .images-gallery .gallery-item.fourth {
+#albuns .images-gallery .gallery-item.fourth {
   background: url(../img/Gasoline.png) no-repeat;
   background-size: cover;
   background-position: center;
@@ -86,31 +85,31 @@
 
 /*BOOKS*/
 
-.books,
-.albuns {
+#books,
+#albuns {
   align-items: center;
   justify-content: space-evenly;
 }
 
-.books .books-content {
+#books .books-content {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.books .books-content h3 {
+#books .books-content h3 {
   border: 5px dotted var(--primary-color);
   border-radius: 15px;
   padding: 10px 25px;
   margin-bottom: 15px;
 }
 
-.books .books-content h3:hover {
+#books .books-content h3:hover {
   border-style: solid;
   font-size: 30px;
 }
 
-.books .books-gallery {
+#books .books-gallery {
   display: none;
 }
 
@@ -123,92 +122,101 @@
   margin-bottom: 10px;
 }
 
-.series .series-gallery {
+#series .series-gallery {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
   height: 400px;
 }
 
-.series .series-gallery .gallery-item.one {
+#series .series-gallery .gallery-item.one {
   background: url(../img/Interview-with-the-vampire.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.two {
+#series .series-gallery .gallery-item.two {
   background: url(../img/Succession.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.three {
+#series .series-gallery .gallery-item.three {
   background: url(../img/Foundation.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.four {
+#series .series-gallery .gallery-item.four {
   background: url(../img/Severance.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.five {
+#series .series-gallery .gallery-item.five {
   background: url(../img/Abbot-elementary.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.six {
+#series .series-gallery .gallery-item.six {
   background: url(../img/Fleabag.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.seven {
+#series .series-gallery .gallery-item.seven {
   background: url(../img/Barry.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.eight {
+#series .series-gallery .gallery-item.eight {
   background: url(../img/Good-omens.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.nine {
+#series .series-gallery .gallery-item.nine {
   background: url(../img/Insecure.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.ten {
+#series .series-gallery .gallery-item.ten {
   background: url(../img/Never-have-i-ever.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.eleven {
+#series .series-gallery .gallery-item.eleven {
   background: url(../img/I-may-destroy-you.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
-.series .series-gallery .gallery-item.twelve {
+#series .series-gallery .gallery-item.twelve {
   background: url(../img/Rick&Morty.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
 
 @media screen and (min-width: 768px) {
-  .albuns .images-gallery {
+  .main-header h1 {
+    font-size: 25px;
+    padding: 0 100px;
+  }
+
+  .main-header a {
+    font-size: 25px;
+  }
+
+  #albuns .images-gallery {
     column-gap: 100px;
     padding: 15px;
   }
 
-  .books .books-content {
+  #books .books-content {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -219,63 +227,72 @@
     margin-bottom: 15px;
   }
 
-  .series .series-gallery {
+  #series .series-gallery {
     grid-template-columns: repeat(6, 1fr);
     gap: 15px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .albuns .images-gallery {
+  .main-header h1 {
+    font-size: 30px;
+    padding: 0 0 0 250px;
+  }
+
+  .main-header a {
+    font-size: 30px;
+  }
+
+  #albuns .images-gallery {
     column-gap: 200px;
     padding: 20px;
   }
 
-  .books {
+  #books {
     justify-content: center;
   }
 
-  .books .books-content {
+  #books .books-content {
     flex-direction: row;
     flex-wrap: initial;
     padding: 25px 0;
   }
 
-  .books .books-gallery {
+  #books .books-gallery {
     display: flex;
     column-gap: 85px;
   }
 
-  .books .books-gallery .gallery-item {
+  #books .books-gallery .gallery-item {
     height: 210px;
     width: 150px;
   }
 
-  .books .books-gallery .gallery-item.one {
+  #books .books-gallery .gallery-item.one {
     background: url(../img/o-processo-franz-kafka.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .books .books-gallery .gallery-item.two {
+  #books .books-gallery .gallery-item.two {
     background: url(../img/mr-loverman-bernardine-evaristo.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .books .books-gallery .gallery-item.three {
+  #books .books-gallery .gallery-item.three {
     background: url(../img/leite-derramado-chico-buarque.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .books .books-gallery .gallery-item.four {
+  #books .books-gallery .gallery-item.four {
     background: url(../img/a-amiga-genial-elena-ferrante.jpg) no-repeat;
     background-size: cover;
     background-position: center;
   }
 
-  .books .books-gallery .gallery-item.five {
+  #books .books-gallery .gallery-item.five {
     background: url(../img/dracula-bram-stoker.jpg) no-repeat;
     background-size: cover;
     background-position: center;
@@ -285,7 +302,7 @@
     margin-bottom: 20px;
   }
 
-  .series .series-gallery {
+  #series .series-gallery {
     height: 500px;
     gap: 30px;
   }
